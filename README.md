@@ -1,11 +1,9 @@
-j# geopad.github.io
-Service Provider
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>GEOPAD | Your One-Stop Service Provider</title>
+  <title>GEOPAD</title>
   <style>
     * {
       margin: 0;
@@ -21,178 +19,103 @@ Service Provider
     header {
       background: #2c3e50;
       color: white;
-      padding: 1rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .logo {
-      font-size: 1.8rem;
-      font-weight: bold;
-    }
-    .logo span {
-      color: #3498db;
-    }
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin-left: 1.5rem;
-      font-weight: 500;
-    }
-    .hero {
-      background: linear-gradient(135deg, #3498db, #2c3e50);
-      color: white;
       text-align: center;
-      padding: 6rem 2rem;
+      padding: 3rem 1rem;
     }
-    .hero h1 {
-      font-size: 2.8rem;
-      margin-bottom: 1rem;
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
     }
-    .hero p {
-      font-size: 1.2rem;
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
       max-width: 700px;
       margin: 0 auto;
     }
-    .btn {
-      display: inline-block;
-      background: #e74c3c;
-      color: white;
-      padding: 0.8rem 2rem;
-      margin-top: 1.5rem;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-    }
-    section {
-      padding: 4rem 2rem;
+    .container {
       max-width: 1200px;
-      margin: 0 auto;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
     }
-    .section-title {
-      text-align: center;
-      margin-bottom: 2.5rem;
-      font-size: 2rem;
-      color: #2c3e50;
-    }
-    .services-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    .services {
+      display: flex;
+      flex-wrap: wrap;
       gap: 2rem;
+      justify-content: center;
     }
     .service-card {
       background: white;
-      padding: 2rem;
       border-radius: 10px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      text-align: center;
+      width: 100%;
+      max-width: 350px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+    .service-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .service-card-content {
+      padding: 1.5rem;
+    }
+    .service-card h3 {
+      margin-bottom: 0.75rem;
+      color: #2c3e50;
     }
     footer {
-      background: #2c3e50;
-      color: white;
       text-align: center;
       padding: 2rem;
+      background: #ecf0f1;
+      color: #7f8c8d;
       margin-top: 3rem;
-    }
-    @media (max-width: 600px) {
-      header {
-        flex-direction: column;
-        text-align: center;
-      }
-      nav {
-        margin-top: 1rem;
-      }
-      nav a {
-        margin: 0 0.8rem;
-      }
     }
   </style>
 </head>
 <body>
 
   <header>
-    <div class="logo">GEO<span>PAD</span></div>
-    <nav>
-      <a href="#services">Services</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <h1>GEOPAD</h1>
+    <p>Innovative geospatial solutions for a smarter world.</p>
   </header>
 
-  <section class="hero">
-    <h1>Welcome to GEOPAD</h1>
-    <p>Your trusted one-stop service provider for innovative and reliable solutions.</p>
-    <a href="#contact" class="btn">Get in Touch</a>
-  </section>
+  <div class="container">
+    <div class="services">
+      
+      <div class="service-card">
+        <img src="https://picsum.photos/400/250?random=1" alt="Geospatial Mapping">
+        <div class="service-card-content">
+          <h3>Geospatial Mapping</h3>
+          <p>High-precision mapping using satellite and drone imagery to visualize terrain, infrastructure, and environmental changes.</p>
+        </div>
+      </div>
 
-  <section id="services">
-    <h2 class="section-title">Our Services</h2>
-    <div class="services-grid">
       <div class="service-card">
-        <h3>Consulting</h3>
-        <p>Expert advice tailored to your business needs.</p>
+        <img src="https://picsum.photos/400/250?random=2" alt="Data Analytics">
+        <div class="service-card-content">
+          <h3>Geospatial Analytics</h3>
+          <p>Turn location data into actionable insights with AI-powered analysis for urban planning, logistics, and risk assessment.</p>
+        </div>
       </div>
+
       <div class="service-card">
-        <h3>Technology</h3>
-        <p>Modern tools and systems for efficiency.</p>
+        <img src="https://picsum.photos/400/250?random=3" alt="Custom Solutions">
+        <div class="service-card-content">
+          <h3>Custom GIS Solutions</h3>
+          <p>Tailored geospatial software and dashboards designed to meet your organization’s unique operational needs.</p>
+        </div>
       </div>
-      <div class="service-card">
-        <h3>Support</h3>
-        <p>24/7 assistance you can count on.</p>
-      </div>
+
     </div>
-  </section>
-
-  <section id="about">
-    <h2 class="section-title">About GEOPAD</h2>
-    <p style="text-align:center; max-width:800px; margin:0 auto;">
-      GEOPAD is a dynamic service provider dedicated to delivering excellence across industries. 
-      With a focus on innovation, reliability, and customer satisfaction, we empower businesses to thrive.
-    </p>
-  </section>
-
-  <section id="contact">
-    <h2 class="section-title">Contact Us</h2>
-    <p style="text-align:center;">
-      Ready to get started? Reach out today!<br>
-      Email: contact@geopad.com
-    </p>
-  </section>
+  </div>
 
   <footer>
     <p>&copy; 2025 GEOPAD. All rights reserved.</p>
   </footer>
 
-</body>
-</html>
-<p>Geopad is a service provider offering innovative solutions for [your niche—e.g., geospatial analysis, mapping tools, etc.].</p>
-<img src="images/logo.png" alt="Geopad Logo">
-<a href="#services">Our Services</a> |
-<a href="#contact">Contact Us</a>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Geopad</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
-    img { max-width: 200px; height: auto; }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Geopad</h1>
-    <p>Your trusted partner in geospatial technology and services.</p>
-  </header>
-
-  <main>
-    <img src="images/geopad-logo.png" alt="Geopad Logo">
-    <h2>What We Offer</h2>
-    <p>We provide cutting-edge mapping, data analysis, and location-based solutions for businesses and researchers.</p>
-
-    <h2>Contact Us</h2>
-    <p>Reach out at <a href="mailto:info@geopad.com">info@geopad.com</a></p>
-  </main>
 </body>
 </html>
