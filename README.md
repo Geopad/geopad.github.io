@@ -1,4 +1,4 @@
-# geopad.github.io
+j# geopad.github.io
 Service Provider
 <!DOCTYPE html>
 <html lang="en">
@@ -163,5 +163,36 @@ Service Provider
     <p>&copy; 2025 GEOPAD. All rights reserved.</p>
   </footer>
 
+</body>
+</html>
+<p>Geopad is a service provider offering innovative solutions for [your niche—e.g., geospatial analysis, mapping tools, etc.].</p>
+<img src="images/logo.png" alt="Geopad Logo">
+<a href="#services">Our Services</a> |
+<a href="#contact">Contact Us</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Geopad</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+    img { max-width: 200px; height: auto; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Geopad</h1>
+    <p>Your trusted partner in geospatial technology and services.</p>
+  </header>
+
+  <main>
+    <img src="images/geopad-logo.png" alt="Geopad Logo">
+    <h2>What We Offer</h2>
+    <p>We provide cutting-edge mapping, data analysis, and location-based solutions for businesses and researchers.</p>
+
+    <h2>Contact Us</h2>
+    <p>Reach out at <a href="mailto:info@geopad.com">info@geopad.com</a></p>
+  </main>
 </body>
 </html>
