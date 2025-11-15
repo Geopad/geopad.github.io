@@ -1,3 +1,5 @@
+<img src="/assets/images/diagram.png" alt="Diagram" />
+![My diagram](/assets/images/diagram.png)
 <nav>
   <a href="index.html">Home</a>
   <a href="about.html">About</a>
