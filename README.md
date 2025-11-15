@@ -260,3 +260,10 @@
 </body>
 </html>
 email: geopadservices@gmail.com 
+
+---
+title: Contact
+---
+
+<h2>Contact</h2>
+<p>Email: <a href="mailto:geopadservices@gmail.com">geopadservices@gmail.com</a></p>
