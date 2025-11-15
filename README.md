@@ -1,3 +1,12 @@
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<img src="images/myphoto.jpg" alt="Description of photo" width="300">
+
+
 <!DOCTYPE html><html lang="en">
 <head>
     <base target="_self">
