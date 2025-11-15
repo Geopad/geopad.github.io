@@ -119,3 +119,16 @@
 
 </body>
 </html>
+
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>README</title>
+</head>
+<body>
+    <h1>GeoPad Services</h1>
+    <p>Welcome to GeoPad!</p>
+    <p>Contact us at: <a href="mailto:geopadservices@gmail.com">geopadservices@gmail.com</a></p>
+</body>
+</html>
