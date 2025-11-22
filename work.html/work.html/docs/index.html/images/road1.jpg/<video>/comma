@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Road Work & Delivery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .video-container {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+
+    .video-container iframe {
+      width: 100%;
+      max-width: 800px;
+      height: 450px;
+    }
+
+    /* Top two images side by side */
+    .top-images {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin: 20px 0;
+    }
+
+    .top-images img {
+      width: 45%;
+      max-width: 400px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    /* Columns for 8 images under each top image */
+    .image-columns {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .column {
+      width: 45%;
+      max-width: 400px;
+    }
+
+    .column img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+      border-radius: 6px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+    }
+
+    @media (max-width: 768px) {
+      .top-images img,
+      .column {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Road Construction & Goods Delivery</h1>
+
+  <!-- Embed a relevant video (replace with your own if available) -->
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+      title="Men at Work - Road Construction & Delivery"
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <!-- Two top images side by side -->
+  <div class="top-images">
+    <img src="https://via.placeholder.com/400x250?text=Road+Construction" alt="Road Construction Crew">
+    <img src="https://via.placeholder.com/400x250?text=Delivery+Truck" alt="Goods Delivery Truck">
+  </div>
+
+  <!-- Two columns of 8 images each -->
+  <div class="image-columns">
+    <div class="column">
+      <!-- 8 images under first top image -->
+      <img src="https://via.placeholder.com/400x200?text=Work+1" alt="Work Image 1">
+      <img src="https://via.placeholder.com/400x200?text=Work+2" alt="Work Image 2">
+      <img src="https://via.placeholder.com/400x200?text=Work+3" alt="Work Image 3">
+      <img src="https://via.placeholder.com/400x200?text=Work+4" alt="Work Image 4">
+      <img src="https://via.placeholder.com/400x200?text=Work+5" alt="Work Image 5">
+      <img src="https://via.placeholder.com/400x200?text=Work+6" alt="Work Image 6">
+      <img src="https://via.placeholder.com/400x200?text=Work+7" alt="Work Image 7">
+      <img src="https://via.placeholder.com/400x200?text=Work+8" alt="Work Image 8">
+    </div>
+
+    <div class="column">
+      <!-- 8 images under second top image -->
+      <img src="https://via.placeholder.com/400x200?text=Delivery+1" alt="Delivery Image 1">
+      <img src="https://via.placeholder.com/400x200?text=Delivery+2" alt="Delivery Image 2">
+      <img src="https://via.placeholder.com/400x200?text=Delivery+3" alt="Delivery Image 3">
+      <img src="https://via.placeholder.com/400x200?text=Delivery+4" alt="Delivery Image 4">
+      <img src="https://via.placeholder.com/400x200?text=Delivery+5" alt="Delivery Image 5">
+      <img src="https://via.placeholder.com/400x200?text=Delivery+6" alt="Delivery Image 6">
+      <img src="https://via.placeholder.com/400x200?text=Delivery+7" alt="Delivery Image 7">
+      <img src="https://via.placeholder.com/400x200?text=Delivery+8" alt="Delivery Image 8">
+    </div>
+  </div>
+
+</body>
+</html>
